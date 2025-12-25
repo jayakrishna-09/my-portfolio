@@ -49,22 +49,24 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+                I am a MERN Stack Developer with hands-on experience building full-stack web
+                applications using React, Node.js, Express, and MongoDB/MySQL. I enjoy
+                transforming ideas into functional, user-friendly applications with clean
+                and maintainable code.
               </p>
+
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+                On the frontend, I work with HTML, CSS, JavaScript, Tailwind CSS, Bootstrap,
+                SCSS, and Redux Toolkit to build responsive and scalable interfaces. On the
+                backend, I focus on creating secure REST APIs, handling authentication,
+                role-based access, and structured database design.
               </p>
+
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+                I am currently improving my TypeScript skills and continuously learning best
+                practices to write more reliable, efficient, and scalable applications.
+                I enjoy solving real-world problems and building projects that reflect
+                practical use cases.
               </p>
             </div>
 

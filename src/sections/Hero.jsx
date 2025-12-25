@@ -11,21 +11,22 @@ import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
   "React",
-  "Next.js",
+  // "Next.js",
   "TypeScript",
   "Node.js",
-  "GraphQL",
-  "PostgreSQL",
+  // "GraphQL",
+  // "PostgreSQL",
+  "MySQL",
   "MongoDB",
   "Redis",
-  "Docker",
-  "AWS",
+  // "Docker",
+  // "AWS",
   "Vercel",
   "Tailwind CSS",
   "Prisma",
   "Jest",
-  "Cypress",
-  "Figma",
+  // "Cypress",
+  // "Figma",
   "Git",
   "GitHub Actions",
 ];
@@ -52,9 +53,8 @@ export const Hero = () => {
               backgroundColor: "#20B2A6",
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
-              animation: `slow-drift ${
-                15 + Math.random() * 20
-              }s ease-in-out infinite`,
+              animation: `slow-drift ${15 + Math.random() * 20
+                }s ease-in-out infinite`,
               animationDelay: `${Math.random() * 5}s`,
             }}
           />
@@ -69,7 +69,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Engineer • React Specialist
+            Fullstack-Developer
               </span>
             </div>
 
@@ -85,14 +85,12 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Pedro Machado — a software engineer specializing in
-                React, Next.js, and TypeScript. I build scalable, performant web
-                applications that users love.
+                Hi, I’m JayaKrishna — a MERN Stack Developer specializing in building scalable and user-friendly web applications using React, Node.js, Express, and MongoDB/MySQL. I focus on clean UI, efficient APIs, and maintainable code that delivers real-world solutions
               </p>
             </div>
 
             {/* CTAs */}
-            <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
+            {/* <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
               <Button size="lg">
                 Contact Me <ArrowRight className="w-5 h-5" />
               </Button>
@@ -100,15 +98,15 @@ export const Hero = () => {
                 <Download className="w-5 h-5" />
                 Download CV
               </AnimatedBorderButton>
-            </div>
+            </div> */}
 
             {/* Social Links */}
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
-                { icon: Github, href: "#" },
-                { icon: Linkedin, href: "#" },
-                { icon: Twitter, href: "#" },
+                { icon: Github, href: "https://github.com/Jayakrishna0511" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/jayakrishna-mudhiraj-769813290" },
+                // { icon: Twitter, href: "#" },
               ].map((social, idx) => (
                 <a
                   key={idx}
@@ -147,12 +145,12 @@ export const Hero = () => {
                   </div>
                 </div>
                 {/* Stats Badge */}
-                <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
+                {/* <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
                   <div className="text-2xl font-bold text-primary">5+</div>
                   <div className="text-xs text-muted-foreground">
                     Years Exp.
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

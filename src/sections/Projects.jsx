@@ -2,40 +2,40 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "Employee Management System",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
+      "An employee management system where admins manage employees, roles, categories, and project assignments, while employees view their profiles, track assigned projects, and update work status.",
     image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
-    link: "#",
-    github: "#",
+    tags: ["React", "NodeJS, Express.js", "MySql"],
+    link: "emp-management-weld.vercel.app/",
+    github: "https://github.com/Jayakrishna0511/emp_management",
   },
   {
     title: "E-Commerce Platform",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
+      "A role-based e-commerce platform where admins manage stores, products, and vendor onboarding, vendors add products to approved stores, and users browse, favorite, purchase products through a seamless shopping experience.",
+    image: "/projects/project2.jpeg",
+    tags: ["Typescript", "NodeJS, Express.js", "MongoDb", "Tailwind"],
     link: "#",
-    github: "#",
+    github: "https://github.com/jayakrishna-09/ecommerce",
   },
   {
-    title: "AI Writing Assistant",
+    title: "AI Task Reminder Assistant",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
+      "An chatbot which used to remaind the users task by sending their mails or mobile notifications.",
     image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
-    github: "#",
+    tags: ["React", "Node.Js, Express.js", "Tailwind", "Socket.io", "Nodemailer", "twillios"],
+    link: "task-assistant-chatbot.vercel.app",
+    github: "https://github.com/Jayakrishna0511/task-assistant-chatbot",
   },
   {
-    title: "Project Management Tool",
+    title: "Library Management System",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
+      "A library management system where administrators manage books with full CRUD operations, and users can browse available books, mark favorites, and read content through an intuitive interface.",
     image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
+    tags: ["React.js", "Node.js, Express.js", "MongoDB", "Redis"],
     link: "#",
-    github: "#",
+    github: "https://github.com/Jayakrishna0511/library-management-system",
   },
 ];
 
