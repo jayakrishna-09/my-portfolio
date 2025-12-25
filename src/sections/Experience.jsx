@@ -5,7 +5,7 @@ const experiences = [
     company: "AIFA LABS.",
     description:
       "Contributing to frontend UI development and backend, building responsive interfaces and supporting API integration for full-stack application features.",
-    technologies: ["React", "TypeScript", "Node.js", "MongoDB"],
+    technologies: ["React", "TypeScript", "Node.js", "Express.js","MongoDB","Scss","Bootstrap","Tailwind","Javascript","Gojs"],
     current: true,
   },
   // {
