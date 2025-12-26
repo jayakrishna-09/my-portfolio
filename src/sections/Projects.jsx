@@ -7,7 +7,7 @@ const projects = [
       "An employee management system where admins manage employees, roles, categories, and project assignments, while employees view their profiles, track assigned projects, and update work status.",
     image: "/projects/project1.png",
     tags: ["React", "NodeJS, Express.js", "MySql"],
-    link: "emp-management-weld.vercel.app/",
+    link: "https://emp-management-weld.vercel.app",
     github: "https://github.com/Jayakrishna0511/emp_management",
   },
   {
@@ -25,7 +25,7 @@ const projects = [
       "An chatbot which used to remaind the users task by sending their mails or mobile notifications.",
     image: "/projects/project3.png",
     tags: ["React", "Node.Js, Express.js", "Tailwind", "Socket.io", "Nodemailer", "twillios"],
-    link: "task-assistant-chatbot.vercel.app",
+    link: "https://task-assistant-chatbot.vercel.app",
     github: "https://github.com/Jayakrishna0511/task-assistant-chatbot",
   },
   {
