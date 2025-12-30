@@ -17,7 +17,7 @@ const projects = [
     image: "/projects/project2.jpeg",
     tags: ["Typescript", "NodeJS, Express.js", "MongoDb", "Tailwind"],
     link: "#",
-    github: "https://github.com/jayakrishna-09/ecommerce",
+    github: "https://github.com/jayakrishna-09/ecommerce/tree/feature/tsxfiles",
   },
   {
     title: "AI Task Reminder Assistant",
